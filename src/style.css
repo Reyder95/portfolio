@@ -1,0 +1,110 @@
+body {
+    /*background-color: #5E7CA7;*/ 
+}
+
+.jumbotron {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1573126617899-41f1dffb196c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.innerjumbotron {
+    text-align: center;
+    color:#6E6B68;
+}
+
+.innerjumbotron h1 {
+    color: black;
+}
+
+.innerjumbotron p {
+    font-size: 30px;
+    color: black;
+}
+
+.navcomponent {
+    background-color:#3F5370;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.about-me {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color:#DED4CA;
+}
+
+.about-me h1 {
+    margin-bottom: 45px;
+}
+
+.about-me .row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.my-projects {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #B5ADA5;
+}
+
+.my-projects h1 {
+    margin-bottom: 45px;
+}
+
+.my-projects .main-row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.my-projects .col .card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E8DED3;
+    border: none;
+}
+
+.badge {
+    padding: 10px;
+    color: #EAE4E4;
+}
+
+.header-icon {
+    color: black;
+}
+
+.header-icon a {
+    color: #4E5052;
+    transition: 0.2s;
+}
+
+.header-icon a:hover {
+    color: #000;
+    transition: 0.2s;
+}
+
+.technologies {
+    background-color: #DED4CA;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.technologies h1 {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 813px) {
+    .my-projects .row {
+        width: 100%;
+    }
+}
