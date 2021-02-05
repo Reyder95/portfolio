@@ -34,7 +34,7 @@ function Headerview() {
 
                         <div className="col">
                             <div className="header-icon">
-                                <a href="http://www.localhost:3000/resume.pdf">
+                                <a href="/resume.pdf">
                                     <FontAwesomeIcon icon={faFileAlt} size="4x" />
                                 </a>
                             </div>
