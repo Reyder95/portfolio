@@ -32,7 +32,6 @@ body {
     background-color:#3F5370;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
 }
 
 .about-me {
@@ -101,6 +100,29 @@ body {
 
 .technologies h1 {
     margin-bottom: 15px;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav div{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.main-nav div a {
+    color: #CFCDB8;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.main-nav div a:hover {
+    text-decoration: none;
+    opacity: 1.0;
+    transition: 0.2s;
 }
 
 @media only screen and (max-width: 813px) {
