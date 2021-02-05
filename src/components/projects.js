@@ -36,7 +36,7 @@ function Projects() {
 
                 <div className="col">
                     <div className="card" style={{width: '18rem'}}>
-                        <img src="/images/uniproject.png"/>
+                        <img src="/images/uniproject.PNG"/>
 
                         <div className="card-body">
                             <h5 className="card-title"><strong>Uni-Assistant</strong></h5>
