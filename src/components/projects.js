@@ -6,7 +6,7 @@ function Projects() {
             <div className="row main-row">
                 <div className="col">
                     <div className="card" style={{width: '18rem'}}>
-                        <img src="http://localhost:3000/images/sepia.png"/>
+                        <img src={`/images/sepia.png`}/>
 
                         <div className="card-body">
                             <h5 className="card-title"><strong>Sepia</strong></h5>
@@ -26,7 +26,7 @@ function Projects() {
                             </div>
                         
                             <div className="row">
-                                
+
                             </div>
 
                         </div>
@@ -36,7 +36,7 @@ function Projects() {
 
                 <div className="col">
                     <div className="card" style={{width: '18rem'}}>
-                        <img src="http://localhost:3000/images/uni-assistant.png"/>
+                        <img src="/images/uni-assistant.png"/>
 
                         <div className="card-body">
                             <h5 className="card-title"><strong>Uni-Assistant</strong></h5>

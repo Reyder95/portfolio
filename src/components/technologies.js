@@ -8,15 +8,15 @@ function Technologies() {
             </p>
 
             <div className="tech">
-                <img src="http://localhost:3000/images/html.png" width="100px"/>
-                <img src="http://localhost:3000/images/css.png" width="100px"/>
-                <img src="http://localhost:3000/images/javascript.png" width="100px"/>
-                <img src="http://localhost:3000/images/react.png" width="150px"/>
+                <img src="/images/html.png" width="100px"/>
+                <img src="/images/css.png" width="100px"/>
+                <img src="/images/javascript.png" width="100px"/>
+                <img src="/images/react.png" width="150px"/>
                 <br />
-                <img style={{marginLeft: '20px', marginRight: '20px'}} src="http://localhost:3000/images/node.png" width="150px"/>
-                <img src="http://localhost:3000/images/express.png" width="100px"/>
-                <img src="http://localhost:3000/images/postgresql.png" width="100px"/>
-                <img src="http://localhost:3000/images/python.png" width="200px"/>
+                <img style={{marginLeft: '20px', marginRight: '20px'}} src="/images/node.png" width="150px"/>
+                <img src="/images/express.png" width="100px"/>
+                <img src="/images/postgresql.png" width="100px"/>
+                <img src="/images/python.png" width="200px"/>
             </div>
         </div>
     )
